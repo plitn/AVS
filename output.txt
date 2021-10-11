@@ -1,0 +1,6 @@
+Filled container:
+Container contains 4 elements.
+0: It is Rectangle: x upper left = 0, y upper left = 4, x lower right = 4, y lower right =0. Perimeter = 8
+1: It is Triangle with coordinates: A = (0;4), B = (0;0), C = (4;0). Perimeter = 12
+2: It is Circle: x = 1, y = 2, radius = 10. Perimeter = 62.8319
+3: It is Circle: x = 1, y = 2, radius = 10. Perimeter = 62.8319
