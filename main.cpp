@@ -14,17 +14,17 @@
 void errMessage1() {
     cout << "incorrect command line!\n"
             "  Waited:\n"
-            "     command -f infile outfile01 outfile02\n"
+            "     command -f outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n outfile01 outfile02\n";
 }
 
 void errMessage2() {
     cout << "incorrect qualifier value!\n"
             "  Waited:\n"
-            "     command -f infile outfile01 outfile02\n"
+            "     command -f outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n outfile01 outfile02\n";
 }
 
 //------------------------------------------------------------------------------
