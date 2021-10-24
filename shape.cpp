@@ -40,10 +40,13 @@ Shape *Shape::StaticInRnd() {
     switch(k) {
         case 1:
             sp = new Rectangle;
+            break;
         case 2:
             sp = new Triangle;
+            break;
         case 3:
             sp = new Circle;
+            break;
     }
     sp->InRnd();
     return sp;
