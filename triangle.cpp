@@ -28,8 +28,8 @@ void InRnd(triangle &t) {
         t.bc_len = sqrt(pow(t.xc - t.xb, 2) + pow(t.yc - t.yb, 2));
         t.ac_len = sqrt(pow(t.xa - t.xc, 2) + pow(t.ya - t.yc, 2));
     } while((t.ab_len >= (t.bc_len + t.ac_len))
-            || (t.bc_len >= (t.ab_len + t.ac_len))
-            || (t.ac_len >= (t.ab_len + t.bc_len)));
+            && (t.bc_len >= (t.ab_len + t.ac_len))
+            && (t.ac_len >= (t.ab_len + t.bc_len)));
 }
 
 //------------------------------------------------------------------------------
