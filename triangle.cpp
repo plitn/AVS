@@ -28,8 +28,8 @@ void Triangle::InRnd() {
         bc_len = sqrt(pow(xc - xb, 2) + pow(yc - yb, 2));
         ac_len = sqrt(pow(xa - xc, 2) + pow(ya - yc, 2));
     } while((ab_len >= (bc_len + ac_len))
-            || (bc_len >= (ab_len + ac_len))
-            || (ac_len >= (ab_len + bc_len)));
+            && (bc_len >= (ab_len + ac_len))
+            && (ac_len >= (ab_len + bc_len)));
 }
 
 //------------------------------------------------------------------------------
