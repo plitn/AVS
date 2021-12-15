@@ -1,0 +1,3 @@
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cmake-build-debug/CMakeFiles/threads_avs.dir

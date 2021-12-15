@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cabinet.cpp
+cabinet.h
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cabinet.h
+iostream
+-
+thread
+-
+chrono
+-
+mutex
+-
+
+/mnt/c/Users/platon/Desktop/projects/threads_avs/cabinet.h
+iostream
+-
+thread
+-
+chrono
+-
+mutex
+-
+

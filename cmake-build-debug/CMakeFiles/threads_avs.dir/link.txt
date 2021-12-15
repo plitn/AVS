@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g CMakeFiles/threads_avs.dir/main.cpp.o CMakeFiles/threads_avs.dir/cabinet.cpp.o -o threads_avs 
